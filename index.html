@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Branding - Berlian Puti IStana Jingga</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script defer src="assets/js/script.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Berlian Puti Istana Jingga</h1>
+            <p>Software Developer | Tech Enthusiast</p>
+            <p>📍 Batam, Kepulauan Riau, Indonesia | 📧 berlianptristnjingga@gmail.com | 📞 +62 812 6885 1901</p>
+            <div class="social-links">
+                <a href="https://github.com/BerlianPIJ" target="_blank">GitHub</a>
+                <a href="https://Instagram.com/in/berlianptr._" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Bagian tentang -->
+    <section id="about" class="container">
+        <h2>Tentang Saya</h2>
+        <p>I am a second-semester student at Politeknik Negeri Batam, majoring in Software Engineering Technology (TRPL). Throughout my studies, I have been honing my skills in software development, artificial intelligence, and cybersecurity. I work on small projects, participate in training programs, and explore new technologies to deepen my understanding and prepare myself for the tech industry.</p>
+    </section>
+
+    <!-- Riwayat Pendidikan -->
+    <section id="education" class="container">
+        <h2>Riwayat Pendidikan</h2>
+        <ul>
+            <li><b>SMAN 20 Batam Kota</b> - IPS 2021 - 2024</li>
+            <li><b>SMPN 12 Batam Batam Kota</b> - 2018 - 2021</li>
+            <li><b>SDN 007 Batam Kota</b> - 2012 - 2018</li>
+        </ul>
+    </section>
+
+    <!-- Proyek -->
+    <section id="projects" class="container">
+        <h2>Proyek yang Pernah Dikerjakan</h2>
+        <div class="project">
+            <h3>Sistem Manajemen Paket PoliBatam</h3>
+            <p>Sistem Manajemen Paket PoliBatam adalah sebuah aplikasi yang dirancang untuk mengelola pengiriman dan penerimaan paket di lingkungan Politeknik Negeri Batam. Sistem ini membantu dalam pencatatan paket masuk dan keluar, notifikasi penerima, serta pelacakan status paket secara real-time. Dengan fitur yang efisien dan terstruktur, sistem ini bertujuan untuk meningkatkan transparansi dan kemudahan dalam manajemen logistik kampus.</p>
+        </div>
+        <div class="project">
+            <h3>Project Based Learning</h3>
+            <p>Complain Handling System Bandara Hang Nadim.</p>
+        </div>
+    </section>
+
+    <!-- Skillset -->
+    <section id="skills" class="container">
+        <h2>Skillset</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Programming</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Tools</h3>
+                <ul>
+                    <li>Git & GitHub</li>
+                    <li>VS Code</li>
+                    <li>Figma</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Teamwork</li>
+                    <li>Problem Solving</li>
+                    <li>Communication</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Berlian - Dibuat dengan ❤️ dan GitHub Pages</p>
+    </footer>
+</body>
+</html>
+
+/* Reset default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    background: #333;
+    color: white;
+    padding: 30px;
+    border-radius: 10px 10px 0 0;
+}
+
+header .social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Proyek */
+.project {
+    background: #eee;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+/* Skillset */
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill-category {
+    background: #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    width: 30%;
+    min-width: 200px;
+}
+
+.skill-category h3 {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    padding: 15px;
+    border-radius: 0 0 10px 10px;
+    margin-top: 20px;
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+    console.log("Halaman Personal Branding Telah Dimuat!");
+});
